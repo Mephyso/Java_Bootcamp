@@ -17,7 +17,7 @@ public class AboutMe {
         System.out.println("\t\t All supply generates their own demands");
         System.out.print("Favorite TV Show:");
         System.out.println("\t Friends");
-        System.out.print("Favotite Music:");
+        System.out.print("Favorite Music:");
         System.out.println("\t\t Ego");
 
     }
