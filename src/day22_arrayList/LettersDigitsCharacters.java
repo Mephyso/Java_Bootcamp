@@ -1,7 +1,20 @@
 package day22_arrayList;
 
 import java.util.ArrayList;
+/*
+5. Write a program that can retrieve the letters, digits and special characters from the string
+        Ex:
+            str = "Wooden Spoon!"
 
+        output:
+            letters= "WoodenSpoon";
+            Digits = "";
+            specialChars = " !";
+
+        Note: Use Wrapper class methods
+
+
+ */
 public class LettersDigitsCharacters {
     public static void main(String[] args) {
         String str="Wooden22spoon!";
@@ -19,17 +32,3 @@ public class LettersDigitsCharacters {
 
     }
 }
-/*
-5. Write a program that can retrieve the letters, digits and special characters from the string
-        Ex:
-            str = "Wooden Spoon!"
-
-        output:
-            letters= "WoodenSpoon";
-            Digits = "";
-            specialChars = " !";
-
-        Note: Use Wrapper class methods
-
-
- */

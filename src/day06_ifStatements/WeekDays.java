@@ -4,7 +4,7 @@ import java.util.*;
 public class WeekDays {
     public static void main(String[] args) {
         Scanner read= new Scanner(System.in);
-        System.out.println("Haftanin kacinci günündeyiz? ");
+        System.out.println("Which day of the week is it?");
         int day= read.nextInt();
         read.close();
         String result="";

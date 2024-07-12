@@ -43,8 +43,8 @@ public class ArrayListMethods {
         intList.add(5);
 
         System.out.println("intList = " + intList);
- //ArrayListten tekrar edilen elementleri silme:
-//Birinci yöntemde yeni bir Arrayliste her bir element ön kosullu olarak ekleniyor(Eger element yeni Arraylistte yok ise!!!)
+// Removing duplicate elements from an ArrayList:
+// In the first method, each element is conditionally added to a new ArrayList (if the element is not already in the new ArrayList!!!)
         ArrayList<Integer> nonDup= new ArrayList<>();
         for (Integer each : intList)
             if (!nonDup.contains(each))
@@ -54,17 +54,16 @@ public class ArrayListMethods {
         System.out.println("--------------------------------------------------------------");
         System.out.println("intList = " + intList);
 
-/*Ikinci yöntemde mevcut Arraylistte tekrar eden elementlerin son sirada yer alani siliniyor ( if indexOf==lastIndexOf --> remove(lastIndexOf))
-        int n=0;
+// In the second method, the last occurrence of duplicate elements in the existing ArrayList is removed (if indexOf == lastIndexOf --> remove(lastIndexOf))
+        int n = 0;
         while (n < intList.size())
         {
-            Integer control= intList.get(n);
-            if (intList.indexOf(control)== intList.lastIndexOf(control)) n++;
+            Integer control = intList.get(n);
+            if (intList.indexOf(control) == intList.lastIndexOf(control)) n++;
             else intList.remove(intList.lastIndexOf(control));
         }
-        System.out.println("intList = " + intList);*/
-//Ücüncü yöntemde mevcut Arraylistte tekrar eden elementlerin ilki siliniyor ( if indexOf==lastIndexOf --> remove(control))
-
+        System.out.println("intList = " + intList);
+// In the third method, the first occurrence of duplicate elements in the existing ArrayList is removed (if indexOf == lastIndexOf --> remove(control))
         int n=0;
         while (n < intList.size())
         {

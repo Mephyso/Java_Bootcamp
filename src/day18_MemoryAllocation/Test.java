@@ -1,6 +1,6 @@
 package day18_MemoryAllocation;
 
-public class Deneme {
+public class Test {
     public static void main(String[] args) {
         Pizza first= new Pizza(), second = new Pizza(), third= new Pizza(), fourth= new Pizza();
         first.setInfo('s',1,1);

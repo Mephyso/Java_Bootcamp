@@ -18,8 +18,7 @@ public class FirstUnique
             int counter=0;
             for (Integer element : intlist)
                 if (each == element) counter++;
-            // nested for (i,j) loop ile yaparsak kontrol metodumuz: if (Objects.equals(intlist.get(i), intlist.get(j)))
-
+// If we use a nested for (i,j) loop, our control method: if (Objects.equals(intlist.get(i), intlist.get(j)))
             if (counter==1)
             {
                 System.out.println("First unique number is " + each);

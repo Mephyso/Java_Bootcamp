@@ -5,7 +5,7 @@ public class MonthName {
     public static void main(String[] args) {
 
         Scanner read = new Scanner(System.in);
-        System.out.println("Yilin kacinci ayindayiz? ");
+        System.out.println("Which month of the year are we in?");
         int mounth = read.nextInt();
         read.close();
         String result = "";

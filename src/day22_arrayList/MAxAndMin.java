@@ -1,7 +1,16 @@
 package day22_arrayList;
 
 import java.util.ArrayList;
+/*
+8. Write a program that can find the maximum & minimum numbers from an ArrayList of integers
+        Ex:
+            list = [1,2,3,4,5];
 
+            output:
+                Maximum number is 5
+                Minimum number is 1
+
+ */
 public class MAxAndMin {
     public static void main(String[] args) {
         ArrayList<Integer> intList= new ArrayList<>();
@@ -17,13 +26,3 @@ public class MAxAndMin {
         System.out.println("min = " + min);
     }
 }
-/*
-8. Write a program that can find the maximum & minimum numbers from an ArrayList of integers
-        Ex:
-            list = [1,2,3,4,5];
-
-            output:
-                Maximum number is 5
-                Minimum number is 1
-
- */

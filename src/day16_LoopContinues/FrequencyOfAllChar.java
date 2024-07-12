@@ -20,7 +20,6 @@ public class FrequencyOfAllChar {
                 System.out.println(mainstr.charAt(i)+" is appear in the given String \"" + counter+"\" times.");
                 counter=0;
             }
-
             read.close();
     }
 }
