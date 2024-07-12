@@ -13,10 +13,10 @@ public class ArrayListMethods {
         intList.remove(intList.size()-1);
         System.out.println("intList = " + intList);
 
-        intList.remove(Integer.valueOf(0)); //Degeri 0 a esit olan Object listeden silinir.
+        intList.remove(Integer.valueOf(0)); // Remove the Object from the list if its value is equal to 0.
         System.out.println("intList = " + intList);
 
-        intList.clear(); //Bütün listeyi siler.
+        intList.clear(); //Deletes the entire list.
         System.out.println("intList = " + intList);
 
         for (int i = -5; i < 6; i++) intList.add(i);
