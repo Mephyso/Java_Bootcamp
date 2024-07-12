@@ -64,7 +64,7 @@ public class ArrayListMethods {
         }
         System.out.println("intList = " + intList);
 // In the third method, the first occurrence of duplicate elements in the existing ArrayList is removed (if indexOf == lastIndexOf --> remove(control))
-        int n=0;
+        n=0;
         while (n < intList.size())
         {
             Integer control= intList.get(n);
