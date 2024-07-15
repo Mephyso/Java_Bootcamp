@@ -18,7 +18,7 @@ public class Login {
             if (counter<3) System.err.println("This  is your "+counter+ ". attempt. \nIncorrect Username/Password, please re-enter! (You have total 3 attempt)");
             counter++;
         } while (counter<4);
-        if (result==true) System.out.println("You are now logged in.");
+        if (result) System.out.println("You are now logged in.");
         else System.err.println("Your account is locked!");
         read.close();
     }
